@@ -1,7 +1,7 @@
+import React from 'react';
 
-
-const Macbook = ({ macbook }) => {
-    const { product_title, product_image, price } = macbook;
+const Iphone = ({iph}) => {
+    const { product_title, product_image, price } = iph;
     return (
         <div className='card card-compact bg-base-100 w-96 shadow-xl transition duration-7000 hover:scale-110 hover:shadow-2xl'>
             <figure>
@@ -24,4 +24,4 @@ const Macbook = ({ macbook }) => {
     );
 };
 
-export default Macbook;
+export default Iphone;

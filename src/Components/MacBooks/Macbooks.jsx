@@ -4,6 +4,7 @@ import Macbook from '../Macbook/Macbook';
 
 const Macbooks = () => {
     const macs = useLoaderData();
+    const macBookfind = macs.filter(mac=> mac.product_title.toLowerCase().includes('macbook'))
 
     return (
         <div>
@@ -12,7 +13,7 @@ const Macbooks = () => {
                 <div className='card grid md:grid-cols-3  gap-12'>
 
                     {
-                        macs.map(macbook=><Macbook key={macs.id} macbook={macbook}></Macbook>)
+                        macBookfind.map(macbook=><Macbook key={macBookfind.id} macbook={macbook}></Macbook>)
                     }
 
                 </div>
