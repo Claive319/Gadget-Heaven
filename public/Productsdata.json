@@ -1,0 +1,323 @@
+[
+    {
+      "product_id": "LAP001",
+      "product_title": "Dell Inspiron 15",
+      "product_image": "https://i.ibb.co.com/FHSSnG8/Dell-Inspiron-15-3505-Ryzen-3-Snowflake-White-Laptop.jpg",
+      "category": "Laptop",
+      "price": 65000,
+      "description": "Dell Inspiron 15 with Intel Core i5, 8GB RAM, 256GB SSD.",
+      "Specification": ["Intel Core i5", "15.6 inch FHD", "8GB RAM", "256GB SSD", "Windows 10"],
+      "availability": true,
+      "rating": 4.5,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Dell"
+      }
+    },
+    {
+      "product_id": "LAP002",
+      "product_title": "MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/DCMZfbL/macbook-air-13-3-inch-500x500.webp",
+      "category": "Laptop",
+      "price": 95000,
+      "description": "Apple MacBook Air with M1 chip, 8GB RAM, 256GB SSD.",
+      "Specification": ["Apple M1 Chip", "13.3 inch Retina Display", "8GB RAM", "256GB SSD", "macOS"],
+      "availability": true,
+      "rating": 4.8,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Apple"
+      }
+    },
+    {
+      "product_id": "PHN001",
+      "product_title": "iPhone 13",
+      "product_image": "https://i.ibb.co.com/qnFgz5B/6000204185633.jpg",
+      "category": "Phone",
+      "price": 80000,
+      "description": "Apple iPhone 13 with A15 Bionic chip, 128GB storage.",
+      "Specification": ["A15 Bionic Chip", "6.1 inch OLED Display", "128GB Storage", "Dual Camera", "iOS 15"],
+      "availability": true,
+      "rating": 4.7,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Apple"
+      }
+    },
+    {
+      "product_id": "PHN002",
+      "product_title": "Samsung Galaxy S21",
+      "product_image": "https://i.ibb.co.com/G0Jx97G/618n-Xc9a7g-L.jpg",
+      "category": "Phone",
+      "price": 70000,
+      "description": "Samsung Galaxy S21 with Exynos 2100, 8GB RAM, 128GB storage.",
+      "Specification": ["Exynos 2100", "6.2 inch Dynamic AMOLED 2X", "8GB RAM", "128GB Storage", "Android 11"],
+      "availability": false,
+      "rating": 4.6,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Samsung"
+      }
+    },
+    {
+      "product_id": "ACC001",
+      "product_title": "JBL Bluetooth Speaker",
+      "product_image": "https://i.ibb.co.com/zQkwd7g/clip-5-03-500x500.webp",
+      "category": "Accessories",
+      "price": 5000,
+      "description": "JBL portable Bluetooth speaker with powerful bass.",
+      "Specification": ["Bluetooth 5.0", "10 hours battery life", "Water-resistant", "Built-in microphone"],
+      "availability": true,
+      "rating": 4.3,
+      "Otherfield": {
+        "warranty": "6 months",
+        "brand": "JBL"
+      }
+    },
+    {
+      "product_id": "ACC002",
+      "product_title": "Sony WH-1000XM4 Headphone",
+      "product_image": "https://i.ibb.co.com/YB7rtdk/2097-43505.jpg",
+      "category": "Accessories",
+      "price": 15000,
+      "description": "Sony WH-1000XM4 noise-cancelling wireless headphone.",
+      "Specification": ["Noise Cancelling", "Bluetooth", "30 hours battery life", "Touch controls", "Voice Assistant"],
+      "availability": true,
+      "rating": 4.9,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Sony"
+      }
+    },
+    {
+      "product_id": "ACC003",
+      "product_title": "Apple AirPods Pro",
+      "product_image": "https://i.ibb.co.com/fntL65V/554d8c32b91c655f02b4af864b76a4a7-jpg-720x720q80.jpg",
+      "category": "Accessories",
+      "price": 20000,
+      "description": "Apple AirPods Pro with active noise cancellation.",
+      "Specification": ["Active Noise Cancellation", "Transparency mode", "Bluetooth 5.0", "24 hours battery with case"],
+      "availability": false,
+      "rating": 4.7,
+      "Otherfield": {
+        "warranty": "1 year",
+        "brand": "Apple"
+      }
+    },
+    {
+      "product_id": "ACC004",
+      "product_title": "Anker PowerCore 10000",
+      "product_image": "https://i.ibb.co.com/sPV9wQH/A1239011-TD01-2878x-600x600.webp",
+      "category": "Accessories",
+      "price": 3000,
+      "description": "Anker PowerCore 10000 portable charger with 10000mAh capacity.",
+      "Specification": ["10000mAh capacity", "Fast Charging", "Lightweight", "USB-A and Micro-USB"],
+      "availability": true,
+      "rating": 4.5,
+      "Otherfield": { "warranty": "18 months", "brand": "Anker" }
+    },
+    {
+      "product_id": "PHN003",
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "https://i.ibb.co.com/2dFm9C9/Morning-mist-gallery.png",
+      "category": "Phone",
+      "price": 60000,
+      "description": "OnePlus 9 Pro with Snapdragon 888, 12GB RAM, 256GB storage.",
+      "Specification": ["Snapdragon 888", "6.7 inch AMOLED", "12GB RAM", "256GB Storage", "Android 11"],
+      "availability": true,
+      "rating": 4.6,
+      "Otherfield": { "warranty": "1 year", "brand": "OnePlus" }
+    },
+    {
+      "product_id": "LAP003",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/dMbqm29/hp-spectre-x360-convertible-laptop-15t-eb100.webp",
+      "category": "Laptop",
+      "price": 110000,
+      "description": "HP Spectre x360 with Intel Core i7, 16GB RAM, 512GB SSD.",
+      "Specification": ["Intel Core i7", "13.3 inch 4K OLED", "16GB RAM", "512GB SSD", "Windows 11"],
+      "availability": false,
+      "rating": 4.7,
+      "Otherfield": { "warranty": "1 year", "brand": "HP" }
+    },
+    {
+      "product_id": "LAP004",
+      "product_title": "Asus ZenBook 14",
+      "product_image": "https://i.ibb.co.com/djdtqn7/ASUS-Zen-Book-14-UX434-FQ-Core-i7-10th-Gen-14-Inch-FHD-Laptop-with-Windows-10-1-jpg.webp",
+      "category": "Laptop",
+      "price": 75000,
+      "description": "Asus ZenBook 14 with AMD Ryzen 5, 8GB RAM, 512GB SSD.",
+      "Specification": ["AMD Ryzen 5", "14 inch FHD", "8GB RAM", "512GB SSD", "Windows 10"],
+      "availability": true,
+      "rating": 4.4,
+      "Otherfield": { "warranty": "1 year", "brand": "Asus" }
+    },
+    {
+      "product_id": "PHN004",
+      "product_title": "Google Pixel 6",
+      "product_image": "https://i.ibb.co.com/Pc77SSq/3774-67323.jpg",
+      "category": "Phone",
+      "price": 65000,
+      "description": "Google Pixel 6 with Google Tensor chip, 8GB RAM, 128GB storage.",
+      "Specification": ["Google Tensor", "6.4 inch OLED", "8GB RAM", "128GB Storage", "Android 12"],
+      "availability": true,
+      "rating": 4.6,
+      "Otherfield": { "warranty": "1 year", "brand": "Google" }
+    },
+    {
+      "product_id": "ACC005",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.ibb.co.com/wdjxs7H/6162-IS3zi-JS-AC-SL1500.jpg",
+      "category": "Accessories",
+      "price": 12000,
+      "description": "Fitbit Versa 3 Health & Fitness Smartwatch.",
+      "Specification": ["Heart Rate Monitor", "GPS", "Voice Assistant", "6+ Days Battery"],
+      "availability": true,
+      "rating": 4.4,
+      "Otherfield": { "warranty": "1 year", "brand": "Fitbit" }
+    },
+    {
+      "product_id": "ACC006",
+      "product_title": "GoPro HERO9",
+      "product_image": "https://i.ibb.co.com/qnxcL0W/81-Szbr4wo5-L-AC-SL1500.jpg",
+      "category": "Accessories",
+      "price": 30000,
+      "description": "GoPro HERO9 Black - Waterproof Action Camera.",
+      "Specification": ["5K Video", "20MP Photos", "HyperSmooth 3.0", "Waterproof to 33ft"],
+      "availability": false,
+      "rating": 4.8,
+      "Otherfield": { "warranty": "1 year", "brand": "GoPro" }
+    },
+    {
+      "product_id": "ACC007",
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://i.ibb.co.com/2P8F9jD/AC115050.webp",
+      "category": "Accessories",
+      "price": 8000,
+      "description": "Logitech MX Master 3 Advanced Wireless Mouse.",
+      "Specification": ["Wireless", "Ergonomic Design", "Rechargeable", "4000 DPI"],
+      "availability": true,
+      "rating": 4.9,
+      "Otherfield": { "warranty": "1 year", "brand": "Logitech" }
+    },
+    {
+      "product_id": "PHN005",
+      "product_title": "Xiaomi Mi 11",
+      "product_image": "https://i.ibb.co.com/tZNzzP5/6f76919a-020a-4b5b-8977-510da7a23cde-a9db17cb21b646685aefe8dc82146db8.webp",
+      "category": "Phone",
+      "price": 50000,
+      "description": "Xiaomi Mi 11 with Snapdragon 888, 8GB RAM, 128GB storage.",
+      "Specification": ["Snapdragon 888", "6.81 inch AMOLED", "8GB RAM", "128GB Storage", "Android 11"],
+      "availability": true,
+      "rating": 4.5,
+      "Otherfield": { "warranty": "1 year", "brand": "Xiaomi" }
+    },
+    {
+      "product_id": "PHN006",
+      "product_title": "Huawei P40 Pro",
+      "product_image": "https://i.ibb.co.com/PhFjrNT/Huawei-P40-Pro-Plus-White-Ceramic.jpg",
+      "category": "Phone",
+      "price": 55000,
+      "description": "Huawei P40 Pro with Kirin 990, 8GB RAM, 256GB storage.",
+      "Specification": ["Kirin 990", "6.58 inch OLED", "8GB RAM", "256GB Storage", "EMUI 10"],
+      "availability": false,
+      "rating": 4.3,
+      "Otherfield": { "warranty": "1 year", "brand": "Huawei" }
+    },
+    {
+      "product_id": "PHN007",
+      "product_title": "Realme GT Master Edition",
+      "product_image": "https://i.ibb.co.com/hBc3R0q/4249ac80-963c-11ec-a97e-1b84c20d3113.png",
+      "category": "Phone",
+      "price": 38000,
+      "description": "Realme GT Master Edition with Snapdragon 778G, 8GB RAM, 128GB storage.",
+      "Specification": ["Snapdragon 778G", "6.43 inch Super AMOLED", "8GB RAM", "128GB Storage", "Android 11"],
+      "availability": true,
+      "rating": 4.4,
+      "Otherfield": { "warranty": "1 year", "brand": "Realme" }
+    },
+    {
+      "product_id": "PHN008",
+      "product_title": "Oppo Reno 6 Pro",
+      "product_image": "https://i.ibb.co.com/J28NRNs/color-v1-1920.png",
+      "category": "Phone",
+      "price": 52000,
+      "description": "Oppo Reno 6 Pro with MediaTek Dimensity 1200, 12GB RAM, 256GB storage.",
+      "Specification": ["Dimensity 1200", "6.55 inch Super AMOLED", "12GB RAM", "256GB Storage", "Android 11"],
+      "availability": true,
+      "rating": 4.6,
+      "Otherfield": { "warranty": "1 year", "brand": "Oppo" }
+    },
+    {
+      "product_id": "LAP005",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/k39YKy4/lenovo-laptops-x1-carbon-6th-gen-hero.webp",
+      "category": "Laptop",
+      "price": 125000,
+      "description": "Lenovo ThinkPad X1 Carbon with Intel Core i7, 16GB RAM, 512GB SSD.",
+      "Specification": ["Intel Core i7", "14 inch FHD", "16GB RAM", "512GB SSD", "Windows 10 Pro"],
+      "availability": true,
+      "rating": 4.8,
+      "Otherfield": { "warranty": "1 year", "brand": "Lenovo" }
+    },
+    {
+      "product_id": "LAP006",
+      "product_title": "Acer Aspire 5",
+      "product_image": "https://i.ibb.co.com/rdY2THb/1.jpg",
+      "category": "Laptop",
+      "price": 55000,
+      "description": "Acer Aspire 5 with AMD Ryzen 5, 8GB RAM, 256GB SSD.",
+      "Specification": ["AMD Ryzen 5", "15.6 inch FHD", "8GB RAM", "256GB SSD", "Windows 10"],
+      "availability": true,
+      "rating": 4.2,
+      "Otherfield": { "warranty": "1 year", "brand": "Acer" }
+    },
+    {
+      "product_id": "LAP007",
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co.com/Dbvp5zJ/microsoft-surface-laptop-4-price-in-bd-1200x900.webp",
+      "category": "Laptop",
+      "price": 130000,
+      "description": "Microsoft Surface Laptop 4 with Intel Core i5, 8GB RAM, 512GB SSD.",
+      "Specification": ["Intel Core i5", "13.5 inch PixelSense", "8GB RAM", "512GB SSD", "Windows 11"],
+      "availability": false,
+      "rating": 4.7,
+      "Otherfield": { "warranty": "1 year", "brand": "Microsoft" }
+    },
+    {
+      "product_id": "LAP008",
+      "product_title": "Samsung Galaxy Book Flex",
+      "product_image": "https://i.ibb.co.com/CP95CFs/Galaxy-Book-Flex-15-2.jpghttps://i.ibb.co.com/CP95CFs/Galaxy-Book-Flex-15-2.jpg",
+      "category": "Laptop",
+      "price": 95000,
+      "description": "Samsung Galaxy Book Flex with Intel Core i5, 8GB RAM, 256GB SSD.",
+      "Specification": ["Intel Core i5", "13.3 inch QLED", "8GB RAM", "256GB SSD", "Windows 10"],
+      "availability": true,
+      "rating": 4.5,
+      "Otherfield": { "warranty": "1 year", "brand": "Samsung" }
+    },
+    {
+      "product_id": "PHN009",
+      "product_title": "Vivo X70 Pro",
+      "product_image": "https://i.ibb.co.com/zQgDvG2/images-6.jpg",
+      "category": "Phone",
+      "price": 62000,
+      "description": "Vivo X70 Pro with Dimensity 1200, 12GB RAM, 256GB storage.",
+      "Specification": ["Dimensity 1200", "6.56 inch AMOLED", "12GB RAM", "256GB Storage", "Android 11"],
+      "availability": false,
+      "rating": 4.6,
+      "Otherfield": { "warranty": "1 year", "brand": "Vivo" }
+    },
+    {
+      "product_id": "LAP009",
+      "product_title": "Alienware m15 R6",
+      "product_image": "https://i.ibb.co.com/By4BXgz/61q-DFn-Kj-Db-S-AC-SL1500.jpg",
+      "category": "Laptop",
+      "price": 200000,
+      "description": "Alienware m15 R6 with Intel Core i7, 16GB RAM, NVIDIA RTX 3070, 1TB SSD.",
+      "Specification": ["Intel Core i7", "15.6 inch QHD", "16GB RAM", "NVIDIA RTX 3070", "1TB SSD", "Windows 11"],
+      "availability": true,
+      "rating": 4.9,
+      "Otherfield": { "warranty": "1 year", "brand": "Alienware" }
+    }
+  ]

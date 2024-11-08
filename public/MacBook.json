@@ -1,0 +1,17 @@
+[
+    {
+        "product_id": "LAP002",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/DCMZfbL/macbook-air-13-3-inch-500x500.webp",
+        "category": "Laptop",
+        "price": 95000,
+        "description": "Apple MacBook Air with M1 chip, 8GB RAM, 256GB SSD.",
+        "Specification": ["Apple M1 Chip", "13.3 inch Retina Display", "8GB RAM", "256GB SSD", "macOS"],
+        "availability": true,
+        "rating": 4.8,
+        "Otherfield": {
+            "warranty": "1 year",
+            "brand": "Apple"
+        }
+    }
+]
