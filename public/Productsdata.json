@@ -15,10 +15,10 @@
       }
     },
     {
-      "product_id": "LAP002",
+      "product_id": "MAC002",
       "product_title": "MacBook Air M1",
       "product_image": "https://i.ibb.co.com/DCMZfbL/macbook-air-13-3-inch-500x500.webp",
-      "category": "Laptop",
+      "category": "MacBook",
       "price": 95000,
       "description": "Apple MacBook Air with M1 chip, 8GB RAM, 256GB SSD.",
       "Specification": ["Apple M1 Chip", "13.3 inch Retina Display", "8GB RAM", "256GB SSD", "macOS"],
@@ -30,10 +30,10 @@
       }
     },
     {
-      "product_id": "PHN001",
+      "product_id": "IPHN001",
       "product_title": "iPhone 13",
       "product_image": "https://i.ibb.co.com/qnFgz5B/6000204185633.jpg",
-      "category": "Phone",
+      "category": "IPhone",
       "price": 80000,
       "description": "Apple iPhone 13 with A15 Bionic chip, 128GB storage.",
       "Specification": ["A15 Bionic Chip", "6.1 inch OLED Display", "128GB Storage", "Dual Camera", "iOS 15"],
@@ -165,10 +165,10 @@
       "Otherfield": { "warranty": "1 year", "brand": "Google" }
     },
     {
-      "product_id": "ACC005",
+      "product_id": "WAT001",
       "product_title": "Fitbit Versa 3",
       "product_image": "https://i.ibb.co.com/wdjxs7H/6162-IS3zi-JS-AC-SL1500.jpg",
-      "category": "Accessories",
+      "category": "Smartwatches",
       "price": 12000,
       "description": "Fitbit Versa 3 Health & Fitness Smartwatch.",
       "Specification": ["Heart Rate Monitor", "GPS", "Voice Assistant", "6+ Days Battery"],

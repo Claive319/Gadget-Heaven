@@ -1,0 +1,26 @@
+[
+    {
+        "product_id": "LAP002",
+        "category": "Laptop"
+    },
+    {
+        "product_id": "PHN001",
+        "category": "Phone"
+    },
+    {
+        "product_id": "ACC001",
+        "category": "Accessories"
+    },
+    {
+        "product_id": "MAC002",
+        "category": "MacBook"
+    },
+    {
+        "product_id": "WAT001",
+        "category": "Smartwatches"
+    },
+    {
+        "product_id": "IPHN001",
+        "category": "IPhone"
+    }
+]
