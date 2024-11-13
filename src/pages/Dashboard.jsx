@@ -8,10 +8,14 @@ import Selected from '../Components/SelectedProduct/Selected';
 import WishProduct from '../Components/WishListProduct/WishProduct';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import useTitle from '../utility/useTitle';
+
 
 
 
 const Dashboard = () => {
+    useTitle('|| Dashboard');
+    
     const navigate = useNavigate()
     const [productList, setProductList] = useState([]);
     const [productWishList, setProductWishList] = useState([]);
@@ -22,11 +26,29 @@ const Dashboard = () => {
         setProductList(sorted);
     }
     const handlePurchasebtn = () => {
-        toast.success("Congratulations! All products have been purchased.");
+        toast(
+            <div className='flex align-middle items-center'>
+              <img
+                src="../../src/assets/Group.png"
+                alt="notification"
+                style={{
+                  width: "50px",
+                  height: "50px",
+                  borderRadius: "8px",
+                  marginRight: "10px",
+                }}
+              />
+              <div>
+                <strong>Success!</strong>
+                <p>Your action was completed successfully.</p>
+              </div>
+            </div>,
+            
+          );
         setProductList([])
     }
 
-    // const productCostTotal = productList.map(prictotal=> JSON.parse(prictotal.price))
+   
     useEffect(() => {
         const storedProductList = getStoredProductList();
 
@@ -41,6 +63,7 @@ const Dashboard = () => {
         setProductWishList(productWishList);
 
     }, [])
+    
 
 
 
@@ -110,7 +133,7 @@ const Dashboard = () => {
             </div>
 
             <ToastContainer position="bottom-left"
-                autoClose={3000}
+                autoClose={2000}
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick
@@ -118,7 +141,7 @@ const Dashboard = () => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                theme="dark"
+                theme="light"
                 limit={3}
                 style={{ width: "350px",height:"980px", fontSize: "16px" }}>
 

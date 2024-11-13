@@ -4,8 +4,10 @@ import Navbar from '../Navbar/Navbar';
 import { Outlet, useLoaderData, useNavigate } from 'react-router-dom';
 import Heading from '../Heading/Heading';
 import Categories from '../Categories/Categories';
+import useTitle from '../../utility/useTitle';
 
 const Home = () => {
+    useTitle('Gadget-Heaven || Home')
     const categories = useLoaderData();
     
     

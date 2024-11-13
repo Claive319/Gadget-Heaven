@@ -10,6 +10,7 @@ import Home from "../Components/Home/Home";
 import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
 import Selected from "../Components/SelectedProduct/Selected";
+import Error from "../Components/ErrorPage/Error";
 
 
 const routes = createBrowserRouter([
@@ -20,6 +21,7 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
+                errorElement: <Error></Error>,
                 loader: ()=> fetch('/Categories.json'),
                 children: [
                     {
@@ -35,37 +37,7 @@ const routes = createBrowserRouter([
 
                     },
                     
-                    // {
-                    //     path: '/products/:macbook',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Macbooks></Macbooks>
-                    // },
-                    // {
-                    //     path: '/products/:laptops',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Laptops></Laptops>
-                    // },
-                    // {
-                    //     path: '/products/:phones',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Phones></Phones>
-
-                    // },
-                    // {
-                    //     path: '/products/:accessories',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Accesorries></Accesorries>
-                    // },
-                    // {
-                    //     path: '/products/:smartwatch',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Smartwatches></Smartwatches>
-                    // },
-                    // {
-                    //     path: '/products/:iphones',
-                    //     loader: () => fetch('/Productsdata.json'),
-                    //     element: <Iphones></Iphones>
-                    // },
+                    
                    
                 ],
                 

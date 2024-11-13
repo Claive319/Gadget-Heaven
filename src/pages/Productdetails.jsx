@@ -3,10 +3,12 @@ import { CiStar } from "react-icons/ci";
 import { useState } from 'react';
 import Dashboard from './Dashboard';
 import { addToStoredProductList, addToWishList } from '../utility/addToDb';
+import useTitle from '../utility/useTitle';
 
 
 
 const Productdetails = () => {
+    useTitle('||  Product Details')
     const productDetail = useLoaderData();
     const [isActive, setIsActive] = useState(false);
     const handleClick = () => {
