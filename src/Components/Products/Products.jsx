@@ -11,7 +11,7 @@ const Products = () => {
             const productsContainer = [...products].filter(prod => prod.category === product);
             setJustProduct(productsContainer)
         }
-        else{
+        else {
             setJustProduct(products);
         }
     }, [product, products])
@@ -21,16 +21,21 @@ const Products = () => {
 
 
     return (
-        <div>
-            <h1>Products {products.length}</h1>
-            <div className='card grid md:grid-cols-3  gap-12'>
+        <>
+            <div className=''>
 
-                {
-                    justProduct.map(produce => <Product key={produce.id} produce={produce}></Product>)
-                }
 
+                <div className='card grid md:grid-cols-3  gap-12'>
+
+                    {
+                        justProduct.map(produce => <Product key={produce.id} produce={produce}></Product>)
+                    }
+                    
+
+                </div>
             </div>
-        </div>
+        </>
+
     );
 };
 
