@@ -15,7 +15,7 @@ import useTitle from '../utility/useTitle';
 
 const Dashboard = () => {
     useTitle('|| Dashboard');
-    
+
     const navigate = useNavigate()
     const [productList, setProductList] = useState([]);
     const [productWishList, setProductWishList] = useState([]);
@@ -28,27 +28,27 @@ const Dashboard = () => {
     const handlePurchasebtn = () => {
         toast(
             <div className='flex align-middle items-center'>
-              <img
-                src="../../src/assets/Group.png"
-                alt="notification"
-                style={{
-                  width: "50px",
-                  height: "50px",
-                  borderRadius: "8px",
-                  marginRight: "10px",
-                }}
-              />
-              <div>
-                <strong>Success!</strong>
-                <p>Your action was completed successfully.</p>
-              </div>
+                <img
+                    src="../../src/assets/Group.png"
+                    alt="Custom Icon"
+                    style={{
+                        width: "50px",
+                        height: "50px",
+                        borderRadius: "8px",
+                        marginRight: "10px",
+                    }}
+                />
+                <div>
+                    <strong>Success!</strong>
+                    <p>Your action was completed successfully.</p>
+                </div>
             </div>,
-            
-          );
+
+        );
         setProductList([])
     }
 
-   
+
     useEffect(() => {
         const storedProductList = getStoredProductList();
 
@@ -63,7 +63,7 @@ const Dashboard = () => {
         setProductWishList(productWishList);
 
     }, [])
-    
+
 
 
 
@@ -143,7 +143,11 @@ const Dashboard = () => {
                 pauseOnHover
                 theme="light"
                 limit={3}
-                style={{ width: "350px",height:"980px", fontSize: "16px" }}>
+                style={{
+                    width: "350px", height: "980px", fontSize: "16px", borderRadius: "10px",
+                    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                    color: "#fff",
+                }}>
 
 
             </ToastContainer>
