@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Dashboard from './Dashboard';
 import { addToStoredProductList, addToWishList } from '../utility/addToDb';
 import useTitle from '../utility/useTitle';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -18,12 +20,18 @@ const Productdetails = () => {
     };
     const { product_id } = useParams();
     const [selected, setSelected] = useState([]);
-    
+
     const handleSelectedItenmShowbtn = (id) => {
         addToStoredProductList(id);
+        toast.success('Your product has sucessfully added to Cart, Go to Dashboard to check it out', {
+            icon: ({ theme, type }) => <img src="../../src/assets/Group.png" />
+        })
     }
     const handleWishListbtn = (anotherid) => {
         addToWishList(anotherid);
+        toast.success('Your product has sucessfully Added to the Wish-List, Go to Dashboard to check it out', {
+            icon: ({ theme, type }) => <img src="../../src/assets/Group.png" />
+        })
     }
     // console.log(productsid);
     const idFind = productDetail.find(id => id.product_id === product_id)
@@ -60,9 +68,7 @@ const Productdetails = () => {
                 {
                     Specification.map((specs, index) => <ol className='text-[#09080F99] font-normal text-lg text-center' key={index}><li>{index + 1}.{specs}</li></ol>)
                 }
-                <div>
-                    <button className='btn w-[280px]' onClick={handleGoBack}>Go Back</button>
-                </div>
+
             </div>
             <div className='flex flex-col items-start ml-6 align justify-center'>
                 <div className='flex flex-col mx-auto'>
@@ -72,7 +78,7 @@ const Productdetails = () => {
 
                     </div>
                     <div className='flex align-middle items-center'>
-                        <button onClick={() => handleSelectedItenmShowbtn(product_id)} className='btn btn-success'>Add to Cart</button>
+                        <button onClick={() => handleSelectedItenmShowbtn(product_id)} className='btn btn-success  hover:btn-secondary -transform transform hover:scale-125 hover:shadow-xl rounded-[24px]  border-purple-200 bg-white hover:text-white'>Add to Cart</button>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -80,7 +86,7 @@ const Productdetails = () => {
                             strokeWidth={1.5}
                             stroke="currentColor"
                             className={`size-6 ${isActive ? 'text-white' : 'hover:text-warning'}`}
-                            onClick={()=>handleWishListbtn(product_id)}
+                            onClick={() => handleWishListbtn(product_id)}
                             style={{ cursor: isActive ? 'not-allowed' : 'pointer' }}
                         >
                             <path
@@ -92,8 +98,10 @@ const Productdetails = () => {
                         </svg>
 
 
+
                     </div>
-                    <div>
+
+                    <div className=''>
                         {
                             selected.map(select => <Dashboard selected={selected}></Dashboard>)
                         }
@@ -104,11 +112,15 @@ const Productdetails = () => {
 
 
                 </div>
+                <div>
+                    <button className='btn w-[280px]' onClick={handleGoBack}>Go Back</button>
+                </div>
 
 
 
             </div>
-
+            <ToastContainer
+                autoClose={1500} />
         </div>
     );
 };

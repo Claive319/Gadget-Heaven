@@ -26,25 +26,7 @@ const Dashboard = () => {
         setProductList(sorted);
     }
     const handlePurchasebtn = () => {
-        toast(
-            <div className='flex align-middle items-center'>
-                <img
-                    src="../../src/assets/Group.png"
-                    alt="Custom Icon"
-                    style={{
-                        width: "50px",
-                        height: "50px",
-                        borderRadius: "8px",
-                        marginRight: "10px",
-                    }}
-                />
-                <div>
-                    <strong>Success!</strong>
-                    <p>Your action was completed successfully.</p>
-                </div>
-            </div>,
-
-        );
+        toast.success('Your action was completed successfully.')
         setProductList([])
     }
 
@@ -98,7 +80,7 @@ const Dashboard = () => {
                         <TabPanel>
                             <h2>Products I Am going to Purchase : {productList.length}</h2>
                             <h2>Total Price: </h2>
-                            <div className='grid md:grid-cols-3 w-full'>
+                            <div className='grid md:grid-cols-3 w-full gap-40'>
                                 {
                                     productList.map(product => <Selected key={product.product_id} product={product}></Selected>)
                                 }
@@ -110,7 +92,7 @@ const Dashboard = () => {
                         </TabPanel>
                         <TabPanel>
                             <h2>Products I want in future : { }</h2>
-                            <div className='grid md:grid-cols-3'>
+                            <div className='grid md:grid-cols-3 w-full gap-40'>
                                 {
                                     productWishList.map(nproduce => <WishProduct key={nproduce.product_id} nproduce={nproduce}></WishProduct>)
                                 }
@@ -132,7 +114,7 @@ const Dashboard = () => {
 
             </div>
 
-            <ToastContainer position="bottom-left"
+            <ToastContainer position="top-center"
                 autoClose={2000}
                 hideProgressBar={false}
                 newestOnTop={false}
@@ -144,7 +126,12 @@ const Dashboard = () => {
                 theme="light"
                 limit={3}
                 style={{
-                    width: "350px", height: "980px", fontSize: "16px", borderRadius: "10px",
+                    position: "fixed",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                    zIndex: 9999,
+                    fontSize: "16px", borderRadius: "10px",
                     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
                     color: "#fff",
                 }}>
